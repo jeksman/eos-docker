@@ -8,7 +8,7 @@ EOS docker image for mainnet production.
 
 ```bash
 # clone
-git clone https://github.com/nanmu42/eos-docker.git
+git clone https://github.com/jeksman/eos-docker.git
 cd eos-docker
 
 # modify config.ini if you need
