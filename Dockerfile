@@ -11,7 +11,7 @@ RUN git clone -b $version https://github.com/EOSIO/eos.git --recursive \
 
 FROM ubuntu:18.04
 
-LABEL maintainer="nanmu42 <i@nanmu.me>" version=$version \
+LABEL maintainer="jeksman <admin@profsite.com.ua>" version=$version \
   description="EOS docker image for mainnet production"
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install openssl ca-certificates && rm -rf /var/lib/apt/lists/*
 
